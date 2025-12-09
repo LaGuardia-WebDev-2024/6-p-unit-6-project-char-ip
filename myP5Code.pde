@@ -5,13 +5,48 @@ void setup() {
 }
 
 
+var colorShade = 0;
+
 //🟢Draw Procedure - Runs on Repeat
 void draw(){
   fill(255,255,255);
   strokeWeight(1);
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
-  
+
+//BACKGROUND ----------------------------------------
+fill (127, 133, 126)
+stroke (127, 133, 126)
+rect(0, 0, 400, 400)
+
+
+fill (120, 126, 120)
+stroke (120, 126, 120)
+rect(0, 0, 400, 300)
+
+fill (111, 117, 110)
+stroke (111, 117, 110)
+rect(0, 0, 400, 200)
+
+fill (78, 81, 73)
+stroke (78, 81, 73)
+rect(0, 0, 400, 140)
+
+stroke (48, 55, 50)
+fill (48, 55, 50)
+rect(0, 0, 400, 80)
+
+stroke (33, 33, 31)
+fill (33, 33, 31)
+rect(0, 0, 400, 30)
+
+//base colors
+strokeWeight(40);
+//i = 0 --> i = 1 --> i = 400
+for(var i = 0; i < 400; i++){
+  stroke(i,i,i);
+  line(i,0,i,400);
+}
 
   
 
