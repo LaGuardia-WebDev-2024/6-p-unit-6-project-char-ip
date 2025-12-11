@@ -14,7 +14,7 @@ void draw(){
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
 
-//BACKGROUND ----------------------------------------
+//BACKGROUND --------------------------------
 fill (127, 133, 126)
 stroke (127, 133, 126)
 rect(0, 0, 400, 400)
@@ -40,15 +40,33 @@ stroke (33, 33, 31)
 fill (33, 33, 31)
 rect(0, 0, 400, 30)
 
-//base colors
-strokeWeight(40);
-//i = 0 --> i = 1 --> i = 400
-for(var i = 0; i < 400; i++){
-  stroke(i,i,i);
-  line(i,0,i,400);
-}
 
-  
+//head ARGGGG
+
+stroke (155, 126, 113)
+fill (155, 126, 113)
+beginShape();
+vertex(70,140);
+vertex(80,180);
+vertex(100,195);
+vertex(110, 190);
+vertex(150, 300);
+vertex(145, 310);
+vertex(170,340);
+vertex(230,330);
+vertex(270,290);
+vertex(280,265);
+vertex(265,255);
+vertex(260,240);
+vertex(270,205);
+vertex(275,150);
+vertex(260,70);
+vertex(150,75);
+endShape();
+
+
+//----------------------------------------------------------------
+
 
 }
 
