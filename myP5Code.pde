@@ -65,6 +65,49 @@ vertex(150,75);
 endShape();
 
 
+//headshadow
+
+stroke(69, 50, 43)
+fill(69, 50, 43)
+beginShape();
+
+//nose
+vertex(210,160);
+vertex(210,170);
+
+//nose tip
+vertex(215,185);
+vertex(210,190);
+
+//lip bow
+vertex(205,190);
+vertex(200,213);
+vertex(203,215);
+
+//lip bow right nostril thing
+vertex(205,200);
+vertex(210,200);
+
+//lip bow tip
+vertex(212,225);
+vertex(190,230);
+vertex(190,240);
+
+vertex(225,235);
+vertex(230,250);
+vertex(230,266);
+vertex(200,270);
+vertex(250,310);
+vertex(270,290);
+vertex(280,265);
+vertex(265,255);
+vertex(260,240);
+vertex(270,205);
+vertex(275,150);
+vertex(260,70);
+vertex(150,75);
+endShape();
+
 //----------------------------------------------------------------
 
 
