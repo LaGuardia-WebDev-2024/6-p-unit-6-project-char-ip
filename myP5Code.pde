@@ -41,8 +41,23 @@ fill (33, 33, 31)
 rect(0, 0, 400, 30)
 
 
-//head ARGGGG
 
+//undershirt
+fill(200, 203, 208)
+stroke(200, 203, 208)
+beginShape();
+vertex(144,310);
+vertex(135,315);
+vertex(140,330);
+vertex(205,380);
+vertex(300,320);
+vertex(330,280);
+vertex(300,270);
+vertex(290,260);
+vertex(280,265);
+endShape();
+
+//head ARGGGG
 stroke (155, 126, 113)
 fill (155, 126, 113)
 beginShape();
@@ -66,10 +81,8 @@ endShape();
 
 
 //headshadow
-stroke(69, 50, 43)
-fill(69, 50, 43)
-
-
+stroke(41, 31, 25)
+fill(41, 31, 25)
 beginShape();
 
 //nose
@@ -159,17 +172,14 @@ vertex(230,330);
 vertex(170,340);
 vertex(145, 310);
 vertex(150, 300);
-
-
 endShape();
+
 
 
 //HAIR???
 fill(29, 23, 19)
 stroke(29, 23, 19)
 
-
-//hair
 beginShape();
 vertex(125,0);
 vertex(70,40);
@@ -206,8 +216,74 @@ vertex(75,160);
 vertex(95,150);
 
 //sideburn
+vertex(115,195);
+vertex(125,195);
+vertex(100,150);
 
+//bangs
+vertex(125,135);
+vertex(140,115);
+vertex(150,75);
+vertex(180,77);
+vertex(175,73);
+vertex(185,75);
+vertex(190,70);
+vertex(247,75);
+vertex(275,150);
+vertex(273,180);
+
+//back hair
+vertex(280,170);
+vertex(280,163);
+vertex(295,150);
+vertex(290,165);
+vertex(297,150);
+vertex(300,160);
+vertex(300,145);
+vertex(285,130);
+vertex(305,140);
+vertex(290,125);
+vertex(285,70);
+vertex(245,10);
+vertex(220,0);
 endShape();
+
+
+//undershirt DEEP shadow
+fill(48, 45, 48)
+stroke(48, 45, 48)
+beginShape();
+vertex(250,310);
+vertex(300,315);
+vertex(305,270);
+vertex(300,270);
+vertex(290,260);
+vertex(280,265);
+endShape();
+
+//overshirt
+fill(12, 16, 19)
+stroke(12, 16, 19)
+beginShape();
+vertex(20,400);
+vertex(35,370);
+vertex(135,315);
+vertex(140,330);
+vertex(205,380);
+vertex(300,320);
+vertex(330,280);
+vertex(400,290);
+vertex(400,400);
+endShape();
+
+fill(12, 16, 19)
+stroke(12, 16, 19)
+beginShape();
+vertex(149,314);
+vertex(180,338);
+vertex(170,340);
+endShape();
+
 
 //----------------------------------------------------------------
 
