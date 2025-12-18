@@ -122,7 +122,13 @@ vertex(260,70);
 vertex(150,75);
 endShape();
 
-
+stroke(41, 31, 25)
+fill(41, 31, 25)
+beginShape();
+vertex(125,230);
+vertex(140,245);
+vertex(200,270);
+endShape();
 
 
 //MIDTONES
@@ -173,6 +179,38 @@ vertex(170,340);
 vertex(145, 310);
 vertex(150, 300);
 endShape();
+
+//EVEN LIGHTER!!!
+stroke(171, 145, 131)
+fill(171, 145, 131)
+beginShape();
+vertex(180,150);
+vertex(170,170);
+vertex(180,180);
+endShape();
+
+beginShape();
+vertex(135,140);
+vertex(120,140);
+vertex(100,150);
+vertex(105,160);
+vertex(145,170);
+vertex(175,145);
+vertex(143,146);
+endShape();
+
+beginShape();
+vertex(95,115);
+vertex(80,150);
+vertex(80,180);
+vertex(110,190);
+endShape();
+
+
+
+strokeWeight(4)
+point(202,185)
+
 
 
 
@@ -276,6 +314,7 @@ vertex(400,290);
 vertex(400,400);
 endShape();
 
+//little black shirt tuff thing idk
 fill(12, 16, 19)
 stroke(12, 16, 19)
 beginShape();
@@ -283,6 +322,31 @@ vertex(149,314);
 vertex(180,338);
 vertex(170,340);
 endShape();
+
+
+//bottom lip
+fill(77, 40, 36)
+stroke(77, 40, 36)
+beginShape();
+vertex(170,225);
+vertex(190,230);
+vertex(225,225);
+vertex(232,217);
+endShape();
+
+//top lip
+fill(60, 34, 27)
+stroke(60, 34, 27)
+beginShape();
+vertex(170,225);
+vertex(185,223);
+vertex(199,215);
+vertex(207,217);
+vertex(219,215);
+vertex(227,217);
+vertex(206,222);
+endShape();
+
 
 
 //----------------------------------------------------------------
