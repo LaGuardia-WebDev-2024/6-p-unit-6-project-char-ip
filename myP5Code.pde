@@ -22,7 +22,7 @@ rect(0, 0, 400, 400)
 
 fill (120, 126, 120)
 stroke (120, 126, 120)
-rect(0, 0, 400, 300)
+rect(0, 0, 400, 300)  //SHAPE TYPE 1!!!!!!!!!!!!!!!!!!!!!!!
 
 fill (111, 117, 110)
 stroke (111, 117, 110)
@@ -46,7 +46,7 @@ rect(0, 0, 400, 30)
 fill(200, 203, 208)
 stroke(200, 203, 208)
 beginShape();
-vertex(144,310);
+vertex(144,310);   //SHAPE TYPE 2!!!!!!!!!!!!!!!!!!!!!!!
 vertex(135,315);
 vertex(140,330);
 vertex(205,380);
@@ -209,7 +209,7 @@ endShape();
 
 
 strokeWeight(4)
-point(202,185)
+point(202,185)    //SHAPE TYPE 3!!!!!!!!!!!!!!!!!!!!!!!
 
 
 
@@ -217,6 +217,7 @@ point(202,185)
 //HAIR???
 fill(29, 23, 19)
 stroke(29, 23, 19)
+strokeWeight(2)
 
 beginShape();
 vertex(125,0);
@@ -327,8 +328,9 @@ endShape();
 //bottom lip
 fill(77, 40, 36)
 stroke(77, 40, 36)
+strokeWeight(4)
 beginShape();
-vertex(170,225);
+vertex(175,225);
 vertex(190,230);
 vertex(225,225);
 vertex(232,217);
@@ -337,8 +339,9 @@ endShape();
 //top lip
 fill(60, 34, 27)
 stroke(60, 34, 27)
+strokeWeight(4)
 beginShape();
-vertex(170,225);
+vertex(175,225);
 vertex(185,223);
 vertex(199,215);
 vertex(207,217);
